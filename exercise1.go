@@ -5,6 +5,7 @@ import "fmt"
 type Vertex struct {
 	X int
 	Y int
+	z int
 }
 
 func (v *Vertex) String() string {
